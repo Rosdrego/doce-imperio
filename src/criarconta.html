@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container"> 
+        <div class="form-wrapper">
+            <main>
+                <h1>Criar Conta</h1>
+                <form id="create-account-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required placeholder="Digite seu nome">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required placeholder="Digite seu e-mail">
+
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" required placeholder="Digite sua senha">
+                    <small>Min. 8 caracteres, pelo menos uma letra, um número e um símbolo.</small>
+
+                    <label for="confirm-password">Confirme a Senha:</label>
+                    <input type="password" id="confirm-password" required placeholder="Confirme sua senha">
+
+                    <label>
+                        <input type="checkbox" id="terms" required> Aceito os <a href="termos.html">termos de serviço</a>
+                    </label>
+
+                    <button type="submit">Criar Conta</button>
+                </form>
+            </main>
+        </div>
+    </div>
+    <script src="criarconta.js"></script>
+</body>
+</html>
+

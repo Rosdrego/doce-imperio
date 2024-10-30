@@ -1,0 +1,181 @@
+/* Estilo do cabeçalho */
+header .navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0; /* Espaço em cima e embaixo da navbar */
+}
+
+.navbar-brand {
+    font-size: 2em; /* Aumenta o tamanho do nome */
+    font-weight: bold;
+    color: #d9534f; /* Cor do nome */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1em;
+    margin-left: 1rem; /* Margem entre os links */
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d9534f;
+    text-decoration: underline;
+}
+
+
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+header .navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #d9534f;
+}
+.navbar-nav .nav-link {
+    font-size: 1.1em;
+    margin-right: 1rem;
+    color: #333;
+}
+.navbar-nav .nav-link:hover {
+    color: #d9534f;
+    text-decoration: underline;
+}
+/* Banner */
+.banner {
+    
+    color: #000000;
+    padding: 3rem 0;
+    text-align: center;
+}
+.banner h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+.banner p {
+    font-size: 1.2em;
+    margin-top: 1rem;
+}
+.banner .btn-primary {
+    background-color: #d9534f;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.banner .btn-primary:hover {
+    background-color: #c9302c;
+}
+
+/* Seção Destaques */
+h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-title {
+    color: #d9534f;
+    font-weight: bold;
+}
+.card-text {
+    color: #666;
+}
+.card .btn-primary {
+    background-color: #d9534f;
+    border: none;
+}
+.card .btn-primary:hover {
+    background-color: #c9302c;
+}
+/* Depoimentos */
+blockquote {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #666;
+}
+.blockquote-footer {
+    color: #999;
+}
+/* Newsletter */
+section.container.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+form .btn-primary {
+    background-color: #d9534f;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+}
+.newsletter .form-control {
+    width: 100%;
+    max-width: 400px;
+    margin: 0.5rem 0;
+    border-radius: 20px;
+    border: 1px solid #d9534f;
+    text-align: center;
+}
+.newsletter .btn-primary {
+    background-color: #d9534f;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    margin-top: 0.5rem;
+}
+.newsletter .btn-primary:hover {
+    background-color: #c9302c;
+}
+/* Redes Sociais */
+.mt-3 a.btn-outline-primary, 
+.mt-3 a.btn-outline-danger {
+    width: 100px;
+    margin: 0 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* Container do Formulário */
+.container {
+   
+    margin: auto; /* Centraliza horizontalmente */
+    padding: 2rem; /* Espaçamento interno */
+    background-color: #ffffff; /* Cor de fundo do formulário */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+/* Rodapé */
+footer {
+    
+    color: #000000;
+    padding: 2rem 0;
+    font-size: 0.9em;
+}
+footer p {
+    margin: 0.5rem 0;
+}
+footer a {
+    color: #d9534f;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}

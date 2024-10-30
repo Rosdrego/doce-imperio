@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube do Doce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loja-doces-clube">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="personalizacao.html">Personalização</a></li>
+                <li><a href="clube.html">Clube do Doce</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="titulo-clube">Seja Membro do Clube do Doce</h1>
+    
+    <div class="clubeArea">
+        <h2 class="clube-subtitulo">Planos de Assinatura</h2>
+        <ul class="clube-planos">
+            <li>
+                <h3 class="clube-plano">Plano Bronze</h3>
+                <p>Receba uma caixa de doces selecionados todo mês.</p>
+                <span>R$ 49,90/mês</span>
+            </li>
+            <li>
+                <h3 class="clube-plano">Plano Prata</h3>
+                <p>Além da caixa de doces, ganhe um doce personalizado exclusivo a cada mês.</p>
+                <span>R$ 79,90/mês</span>
+            </li>
+            <li>
+                <h3 class="clube-plano">Plano Ouro</h3>
+                <p>Receba nossa caixa premium de doces e um desconto de 10% em todas as compras.</p>
+                <span>R$ 109,90/mês</span>
+            </li>
+        </ul>
+        
+        <button id="assinar" class="assinar">Assine Agora</button>
+    </div>
+
+    <script>
+        document.getElementById("assinar").addEventListener("click", function() {
+            // Redireciona para a página de checkout
+            window.location.href = "checkout.html"; // Verifique se o nome do arquivo está correto
+        });
+    </script>
+    <footer>
+        <p>&copy; 2024 Loja de Doces. Todos os direitos reservados.</p>
+        <li><a href="politicas.html">Políticas de Privacidade</a></li>
+       
+    </footer>
+
+</body>
+</html>
+
+
+
+
+

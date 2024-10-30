@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalização de Pedidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="personalizacao.html">Personalização</a></li>
+            <li><a href="clube.html">Clube de Doces</a></li>
+            <li><a href="carrinho.html">Carrinho</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="contato.html">Contato<a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="customize-order">
+    <h1>Personalize seu Pedido</h1>
+    <form id="pedido-form">
+        <div class="form-group">
+            <label for="tipo-doce">Escolha o Tipo de Doce</label>
+            <select id="tipo-doce" required>
+                <option value="" disabled selected>Selecione um doce</option>
+                <option value="Brigadeiro">Brigadeiro Gourmet</option>
+                <option value="Beijinho">Beijinho Tradicional</option>
+                <option value="Cupcake">Cupcake Red Velvet</option>
+                <option value="Bombom">Bombom de Chocolate</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Escolha o Sabor (selecione pelo menos um)</label>
+            <fieldset class="checkbox-group">
+                <input type="checkbox" id="chocolate" value="chocolate">
+                <label for="chocolate">Chocolate</label>
+
+                <input type="checkbox" id="morango" value="morango">
+                <label for="morango">Morango</label>
+
+                <input type="checkbox" id="red-velvet" value="red-velvet">
+                <label for="red-velvet">Red Velvet</label>
+
+                <input type="checkbox" id="coco" value="coco">
+                <label for="coco">Coco</label>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" min="1" value="1" required>
+        </div>
+
+        <div class="form-group">
+            <label for="embalagem">Escolha a Embalagem</label>
+            <select id="embalagem" required>
+                <option value="" disabled selected>Selecione uma embalagem</option>
+                <option value="caixa-papel">Caixa de Papel</option>
+                <option value="caixa-plastica">Caixa Plástica</option>
+                <option value="sacola-personalizada">Sacola Personalizada</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="notas">Notas para o Pedido (opcional)</label>
+            <textarea id="notas" rows="4" placeholder="Escreva uma mensagem especial, detalhes do pedido, etc."></textarea>
+        </div>
+
+        <button type="submit" class="submit-button">Finalizar Pedido</button>
+    </form>
+    <div id="feedback-message" style="display:none; margin-top: 20px;"></div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Loja de Doces. Todos os direitos reservados.</p>
+    <li><a href="politicas.html">Políticas de Privacidade</a></li>
+   
+</footer>
+
+<script src="personalizacao.js"></script>
+
+</body>
+</html>
+
