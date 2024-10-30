@@ -18,7 +18,3 @@ Aqui estão os principais destaques:
 ### 1. **Header Personalizado com Ícones**
 O cabeçalho do site foi cuidadosamente desenhado para incluir ícones que trazem vida e interatividade ao site. Além disso, o botão de **login** possui um ícone de usuário, tornando a navegação mais intuitiva.
 
-```html
-<a class="navbar-brand" href="/index.html">
-    <i class="fas fa-ice-cream"></i> Doce Império
-</a>
